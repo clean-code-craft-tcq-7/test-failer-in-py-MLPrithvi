@@ -2,7 +2,7 @@ major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
 minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
 
 def get_pair_number(majorColor, minorColor):
-    return major_colors.index(majorColor) * 5 + minor_colors.index(minorColor)
+    return major_colors.index(majorColor) * 5 + minor_colors.index(minorColor) + 1
 
 def print_color_map():
     for i, major in enumerate(major_colors):
