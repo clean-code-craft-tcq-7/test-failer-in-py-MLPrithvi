@@ -12,5 +12,5 @@ assert(size(37) == 'S')
 assert(size(40) == 'M')
 assert(size(43) == 'L')
 assert(size(38) == ''), "Size of the T-shirt cannot be classified"
-assert(size(42) == 'L'), "Size of the T-shirt should be L"
+assert(size(42) == 'L')
 print("All is well (maybe!)\n")
